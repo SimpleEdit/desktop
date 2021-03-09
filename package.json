@@ -1,6 +1,6 @@
 {
-  "name": "desktop",
-  "version": "1.0.0",
+  "name": "simpleedit-win64",
+  "version": "1.1.1",
   "description": "SimpleEdit desktop app",
   "main": "app.js",
   "scripts": {
@@ -13,8 +13,8 @@
     "url": "git+https://github.com/SimpleEdit/desktop.git"
   },
   "keywords": [],
-  "author": "SimpleEdit team",
-  "license": "ISC",
+  "author": "SimpleEdit Team",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SimpleEdit/desktop/issues"
   },
@@ -37,10 +37,10 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "desktop",
+            "name": "simpleeditSetup",
             "setupExe": "simpleeditSetup.exe",
             "setupIcon": "Logo.ico",
-            "authors": ""
+            "authors": "SimpleEdit"
           }
         },
         {
