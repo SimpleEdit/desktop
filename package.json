@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "SimpleEdit desktop app",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleEdit/desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimpleEdit/desktop/issues"
+  },
+  "homepage": "https://github.com/SimpleEdit/desktop#readme",
+  "devDependencies": {
+    "electron": "^12.0.0"
+  }
+}
